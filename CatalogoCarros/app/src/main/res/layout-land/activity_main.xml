@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#EAEAEA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/tituloApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:text="Catálogo de Carros"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgCarro1"
+            android:layout_width="280dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Carro 1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carro1" />
+
+        <TextView
+            android:id="@+id/nomeCarro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="120dp"
+            android:text="BMW M3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgCarro2"
+            android:layout_width="280dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Carro 2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carro2" />
+
+        <TextView
+            android:id="@+id/nomeCarro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="120dp"
+            android:text="BMW M4"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgCarro3"
+            android:layout_width="280dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Carro 3"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carro3" />
+
+        <TextView
+            android:id="@+id/nomeCarro3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="120dp"
+            android:text="BMW M5"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgCarro4"
+            android:layout_width="280dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Carro 4"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carro4" />
+
+        <TextView
+            android:id="@+id/nomeCarro4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="120dp"
+            android:text="BMW M2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
